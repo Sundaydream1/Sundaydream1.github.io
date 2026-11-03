@@ -1,0 +1,8 @@
+/* 纸页: one centred reading column, the site name and bio over the list (canvas: 640px, 64px top, name 28/700). */
+.b-wrap { width: min(680px, 100% - 32px); margin: 0 auto; padding: 64px 0 96px; }
+.b-head { margin-bottom: 44px; }
+.b-head .b-name { font-size: 28px; }
+.b-bio { margin: 8px 0 0; font-size: 15px; line-height: 1.6; color: var(--oi-fg-3); }
+.b-head .b-nav { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 18px; font-size: 14px; }
+.b-item .b-cover { display: none; }
+@media (max-width: 760px) { .b-wrap { padding-top: 40px; } .b-head { margin-bottom: 30px; } }

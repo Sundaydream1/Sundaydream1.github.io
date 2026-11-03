@@ -1,0 +1,20 @@
+/* 笔记本: a sidebar with the site name, recent posts and the nav beside the page, like a document app (canvas:
+   250px sidebar #f2f1ed / #232427, main 720px). */
+.b-book { display: flex; min-height: 100vh; }
+.b-side { position: sticky; top: 0; flex-shrink: 0; width: 250px; height: 100vh; overflow-y: auto; padding: 34px 22px; background: #f2f1ed; }
+@media (prefers-color-scheme: dark) { .b-side { background: #232427; } }
+.b-side .b-name { display: block; font-size: 17px; }
+.b-slab { margin: 28px 0 8px; font-size: 12px; font-weight: 600; color: var(--oi-fg-4); }
+.b-recent { display: flex; flex-direction: column; gap: 2px; margin: 0; padding: 0; list-style: none; font-size: 13.5px; }
+.b-recent a { display: block; padding: 6px 8px; margin: 0 -8px; border-radius: 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--oi-fg-2); transition: background-color 140ms; }
+.b-recent a:hover { background: var(--oi-hover); }
+.b-snav { display: flex; flex-direction: column; gap: 10px; margin-top: 28px; font-size: 13.5px; }
+.b-main { flex: 1; min-width: 0; max-width: 776px; padding: 56px 56px 96px; }
+.b-item .b-cover { display: none; }
+@media (max-width: 760px) {
+  .b-book { flex-direction: column; }
+  .b-side { position: static; width: auto; height: auto; padding: 22px 16px 14px; }
+  .b-recent, .b-slab { display: none; }
+  .b-snav { flex-direction: row; flex-wrap: wrap; gap: 16px; margin-top: 12px; }
+  .b-main { padding: 28px 16px 80px; }
+}

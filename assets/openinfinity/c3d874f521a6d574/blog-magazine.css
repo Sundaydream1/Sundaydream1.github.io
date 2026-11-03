@@ -1,0 +1,28 @@
+/* 杂志: a bar over a wide page, the newest post as a hero with its cover, the rest as cards in three columns
+   (canvas: 1080px, hero cover 320px, card cover 150px). */
+:root { --oi-bg: #ffffff; }
+@media (prefers-color-scheme: dark) { :root { --oi-bg: #18191b; } }
+.b-bar { position: sticky; top: 0; z-index: 3; display: flex; align-items: center; gap: 22px; padding: 18px max(var(--b-gutter), (100% - 1080px) / 2); background: color-mix(in srgb, var(--oi-bg) 86%, transparent); -webkit-backdrop-filter: blur(14px) saturate(160%); backdrop-filter: blur(14px) saturate(160%); box-shadow: inset 0 -1px 0 var(--oi-line); }
+.b-bar .b-name { flex: 1; font-size: 19px; }
+.b-bar .b-nav { display: flex; gap: 22px; font-size: 13.5px; }
+.b-bar .b-nav a { color: var(--oi-fg-3); }
+.b-bar .b-nav a:hover { color: var(--oi-fg); opacity: 1; }
+/* The side margin grows with the window: 16px on a phone, up to 40px on a wide screen. */
+:root { --b-gutter: clamp(16px, 4vw, 40px); }
+.b-main { width: min(1080px, 100% - 2 * var(--b-gutter)); margin: 0 auto; padding: 30px 0 96px; }
+.b-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 24px; }
+.b-item > a { height: 100%; padding: 8px; margin: -8px; }
+.b-item .b-cover { aspect-ratio: 16 / 10; margin-bottom: 8px; }
+.b-item .b-cover-empty { background: linear-gradient(160deg, color-mix(in srgb, var(--oi-accent) 18%, var(--oi-bg)), color-mix(in srgb, var(--oi-accent) 6%, var(--oi-bg))); }
+.b-item .b-title { order: 2; font-size: 17px; line-height: 23px; }
+.b-item .b-date { order: 3; }
+.b-item .b-excerpt { order: 4; font-size: 14px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.b-item .b-cover { order: 1; }
+.b-item .b-locked { order: 5; }
+.b-featured { grid-column: 1 / -1; }
+.b-featured .b-cover { aspect-ratio: auto; height: 320px; border-radius: 16px; }
+.b-featured .b-title { font-size: 30px; line-height: 38px; font-weight: 700; letter-spacing: -0.01em; }
+.b-featured .b-excerpt { font-size: 16px; -webkit-line-clamp: 3; }
+.b-post, .b-page-head, .b-year, .b-taglist, .b-empty { width: min(720px, 100%); margin-left: auto; margin-right: auto; }
+@media (max-width: 900px) { .b-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .b-list { grid-template-columns: minmax(0, 1fr); } .b-featured .b-cover { height: 200px; } .b-bar .b-nav { gap: 14px; } }

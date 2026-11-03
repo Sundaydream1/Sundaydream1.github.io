@@ -1,0 +1,1 @@
+"use strict";(()=>{function g(t,a){for(let i of t){let e=i.toLowerCase();if(e.startsWith("zh"))return"zh";if(e.startsWith("en"))return"en"}return a}var n=document.documentElement;if(!n.hasAttribute("data-ui")){let t=n.lang.toLowerCase().startsWith("zh")?"zh":"en",a=navigator.languages?.length?navigator.languages:[navigator.language??""];n.setAttribute("data-ui",g(a,t))}})();

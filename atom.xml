@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+<title>Sundaydream1</title>
+<link href="https://sundaydream1.github.io/"/>
+<link rel="self" href="https://sundaydream1.github.io/atom.xml"/>
+<id>https://sundaydream1.github.io/</id>
+<author><name>Sundaydream1</name><uri>https://sundaydream1.github.io/</uri></author>
+<updated>2026-11-02T15:14:53.109Z</updated>
+<entry>
+<title>读《设计中的设计》</title>
+<link href="https://sundaydream1.github.io/p/2026-11-02-ncrg/"/>
+<id>https://sundaydream1.github.io/p/2026-11-02-ncrg/</id>
+<published>2026-11-02T00:00:00.000Z</published>
+<updated>2026-11-01T05:23:12.079Z</updated>
+<summary>……</summary>
+<content type="html" xml:base="https://sundaydream1.github.io/p/2026-11-02-ncrg/">&lt;article class=&quot;oi-doc&quot; aria-label=&quot;读《设计中的设计》&quot;&gt;&lt;p id=&quot;block-25fd5508-6d6a-4297-9ad3-0a445b96d315&quot;&gt;……&lt;/p&gt;&lt;/article&gt;</content>
+</entry>
+<entry>
+<title>我的笔记工作流（2026 版）</title>
+<link href="https://sundaydream1.github.io/p/note-workflow-2026/"/>
+<id>https://sundaydream1.github.io/p/note-workflow-2026/</id>
+<published>2026-11-02T00:00:00.000Z</published>
+<updated>2026-11-01T05:23:12.033Z</updated>
+<summary>一套写给自己也写给别人的笔记方法。</summary>
+<content type="html" xml:base="https://sundaydream1.github.io/p/note-workflow-2026/">&lt;article class=&quot;oi-doc&quot; aria-label=&quot;我的笔记工作流（2026 版）&quot;&gt;&lt;p id=&quot;block-d9bf5916-9a80-4538-bbf7-74095c2317ba&quot;&gt;从收集、整理到发布，一份笔记怎样走完它的一生。这一版把&quot;写给自己&quot;和&quot;写给别人&quot;分开了：前者随手记，后者要经过一次整理才发出去。&lt;/p&gt;&lt;h2 id=&quot;一收集先放进来再说&quot;&gt;&lt;span id=&quot;block-87de585d-747c-40f5-a0e7-d9b764286f9e&quot; class=&quot;oi-anchor&quot;&gt;&lt;/span&gt;一、收集：先放进来再说&lt;/h2&gt;&lt;p id=&quot;block-4fa69ffd-3a9b-40c7-aefb-43be059d4749&quot;&gt;剪藏、闪念和会话里的结论都先进知识库，不急着分类。每周日花二十分钟，把这一周的东西过一遍，能合并的合并，没用的删掉。&lt;/p&gt;&lt;h2 id=&quot;二整理一篇只讲一件事&quot;&gt;&lt;span id=&quot;block-eddca872-11a4-491b-9822-ea8e0b07e4b3&quot; class=&quot;oi-anchor&quot;&gt;&lt;/span&gt;二、整理：一篇只讲一件事&lt;/h2&gt;&lt;p id=&quot;block-17264191-9000-4583-8db1-7841847f39c2&quot;&gt;整理的标准很简单：标题能说清这篇讲什么，第一段能让别人决定要不要读下去。做不到的，说明还没想清楚。&lt;/p&gt;&lt;h2 id=&quot;三发布给值得的人看&quot;&gt;&lt;span id=&quot;block-e102d011-682e-4241-9586-8de2ecab5cf1&quot; class=&quot;oi-anchor&quot;&gt;&lt;/span&gt;三、发布：给值得的人看&lt;/h2&gt;&lt;p id=&quot;block-e17489c0-d4a4-40b6-beb4-4746ab792d7d&quot;&gt;想清楚的笔记才发到博客；只想给某个人看的，用加密链接单独分享。&lt;/p&gt;&lt;/article&gt;</content>
+</entry>
+<entry>
+<title>原图测试</title>
+<link href="https://sundaydream1.github.io/p/originals-test/"/>
+<id>https://sundaydream1.github.io/p/originals-test/</id>
+<published>2026-11-02T00:00:00.000Z</published>
+<updated>2026-11-02T15:14:53.109Z</updated>
+<summary>一张 3000×2000 的渐变图，用来测试附带原图。</summary>
+<content type="html" xml:base="https://sundaydream1.github.io/p/originals-test/">&lt;article class=&quot;oi-doc&quot; aria-label=&quot;原图测试&quot;&gt;&lt;p id=&quot;block-ded1fce0-c287-43cd-823c-e393af9188ed&quot;&gt;一张 3000×2000 的渐变图，用来测试附带原图。&lt;/p&gt;&lt;figure class=&quot;oi-figure oi-image&quot; id=&quot;block-7d3e49cb-8e5c-4d07-b75e-da2be266c904&quot;&gt;&lt;a class=&quot;oi-original&quot; href=&quot;../../m/c55b1a9602f360fd06102029f6afa54f5202a1b3c3786844a15d8b0f72618e81.png&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;../../m/6b46e61e23ecd952cea93a59c0a99bdf00661db3eb5812f42a4ab0fd5f6ab73e.png&quot; alt=&quot;渐变&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/a&gt;&lt;figcaption&gt;渐变&lt;/figcaption&gt;&lt;/figure&gt;&lt;/article&gt;</content>
+</entry>
+</feed>
